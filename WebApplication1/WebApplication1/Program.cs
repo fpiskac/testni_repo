@@ -14,6 +14,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// The default HSTS value is 30 days. You may want to change it for production scenarios, see https://aka.ms/aspnetcore-hsts.
+
 app.UseHttpsRedirection();
 
 var summaries = new[]
